@@ -2,23 +2,18 @@
   display:flex;
   justify-content:center;
   align-items:center;
-  height:100vh;
   gap:5px;
+  height:100vh;
 }
 
 .container button{
   border:none;
   outline:none;
-  font-size:20px;
-  color:white;
   padding:10px 15px;
-  border-radius:4px;
+  color:white;
   cursor:pointer;
-}
-
-.container p{
-  padding:8px;
-  padding-top:20px;
+  font-size:20px;
+  border-radius:4px;
 }
 
 button.minus{
@@ -26,17 +21,20 @@ button.minus{
 }
 
 button.plus{
-  background-color:blue;
+  background-color: blue;
+}
+
+.container p{
+  padding:25px 7px 7px;
+   
 }
 
 button:disabled{
   opacity:0.6;
-  background-color: grey;
-  color:white;
   cursor:not-allowed;
+  background-color: grey;
 }
 
 button:hover{
-  border:2px solid grey;
+  border:2px solid violet;
 }
-
