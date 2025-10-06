@@ -1,0 +1,42 @@
+.container{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:100vh;
+  gap:5px;
+}
+
+.container button{
+  border:none;
+  outline:none;
+  font-size:20px;
+  color:white;
+  padding:10px 15px;
+  border-radius:4px;
+  cursor:pointer;
+}
+
+.container p{
+  padding:8px;
+  padding-top:20px;
+}
+
+button.minus{
+  background-color:red;
+}
+
+button.plus{
+  background-color:blue;
+}
+
+button:disabled{
+  opacity:0.6;
+  background-color: grey;
+  color:white;
+  cursor:not-allowed;
+}
+
+button:hover{
+  border:2px solid grey;
+}
+
